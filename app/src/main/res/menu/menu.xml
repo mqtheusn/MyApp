@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mSave"
+        android:icon="@drawable/baselinesave"
+        android:title="Salvar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mRestore"
+        android:icon="@drawable/baselinerestore"
+        android:title="Restore"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mDelete"
+        android:icon="@drawable/baselinedelete"
+        android:title="Salvar"
+        app:showAsAction="always" />
 
 </menu>
